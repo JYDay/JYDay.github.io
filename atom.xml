@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-23T12:49:02.806Z</updated>
+  <updated>2019-12-24T13:37:27.824Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Test</title>
-    <link href="http://yoursite.com/2019/12/23/test/"/>
-    <id>http://yoursite.com/2019/12/23/test/</id>
+    <title>个人博客搭建</title>
+    <link href="http://yoursite.com/2019/12/23/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <id>http://yoursite.com/2019/12/23/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
     <published>2019-12-23T10:25:19.195Z</published>
-    <updated>2019-12-23T12:49:02.806Z</updated>
+    <updated>2019-12-24T13:37:27.824Z</updated>
     
-    <content type="html"><![CDATA[<p>这只是一个测试文件</p><h2 id="服了"><a href="#服了" class="headerlink" title="服了"></a>服了</h2><a id="more"></a><h3 id="什么东西"><a href="#什么东西" class="headerlink" title="什么东西"></a>什么东西</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ 日了狗了</span><br></pre></td></tr></table></figure><p>啊啊啊: <a href="https://www.baidu.com" target="_blank" rel="noopener">嘤嘤嘤</a></p><h3 id="emmm？"><a href="#emmm？" class="headerlink" title="emmm？"></a>emmm？</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">？？</span><br></pre></td></tr></table></figure><p>还好吧：wdnmd</p>]]></content>
+    <content type="html"><![CDATA[<p>利用Github搭建个人的免费博客</p><h2 id="JYDay’-Blog"><a href="#JYDay’-Blog" class="headerlink" title="JYDay’ Blog"></a>JYDay’ Blog</h2><a id="more"></a><h4 id="啊真的是，将近一天的功夫才弄好这个东西，也不知道看了有多少的博客教学啊什么详解啊，反正我是那个迷茫啊……然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……"><a href="#啊真的是，将近一天的功夫才弄好这个东西，也不知道看了有多少的博客教学啊什么详解啊，反正我是那个迷茫啊……然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……" class="headerlink" title="啊真的是，将近一天的功夫才弄好这个东西，也不知道看了有多少的博客教学啊什么详解啊，反正我是那个迷茫啊……然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……"></a>啊真的是，将近一天的功夫才弄好这个东西，也不知道看了有多少的博客教学啊什么详解啊，反正我是那个迷茫啊……然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……</h4><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ Github账号一枚</span><br><span class="line">$ 安装 node.js、hexo</span><br><span class="line">$ 安装Git</span><br><span class="line">$我的博客..(没错，我很认真QAQ)</span><br></pre></td></tr></table></figure><p>啊啊啊: <a href="https://www.baidu.com" target="_blank" rel="noopener">嘤嘤嘤</a></p><h3 id="emmm？"><a href="#emmm？" class="headerlink" title="emmm？"></a>emmm？</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">？？</span><br></pre></td></tr></table></figure><p>还好吧：wdnmd</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;这只是一个测试文件&lt;/p&gt;
-&lt;h2 id=&quot;服了&quot;&gt;&lt;a href=&quot;#服了&quot; class=&quot;headerlink&quot; title=&quot;服了&quot;&gt;&lt;/a&gt;服了&lt;/h2&gt;
+      &lt;p&gt;利用Github搭建个人的免费博客&lt;/p&gt;
+&lt;h2 id=&quot;JYDay’-Blog&quot;&gt;&lt;a href=&quot;#JYDay’-Blog&quot; class=&quot;headerlink&quot; title=&quot;JYDay’ Blog&quot;&gt;&lt;/a&gt;JYDay’ Blog&lt;/h2&gt;
     
     </summary>
     
