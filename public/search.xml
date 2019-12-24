@@ -6,9 +6,12 @@
     <content><![CDATA[<p>利用Github搭建个人的免费博客</p>
 <h2 id="JYDay’-Blog"><a href="#JYDay’-Blog" class="headerlink" title="JYDay’ Blog"></a>JYDay’ Blog</h2><a id="more"></a>
 
-<h4 id="啊真的是，将近一天的功夫才弄好这个东西，也不知道看了有多少的博客教学啊什么详解啊，反正我是那个迷茫啊……然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……"><a href="#啊真的是，将近一天的功夫才弄好这个东西，也不知道看了有多少的博客教学啊什么详解啊，反正我是那个迷茫啊……然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……" class="headerlink" title="啊真的是，将近一天的功夫才弄好这个东西，也不知道看了有多少的博客教学啊什么详解啊，反正我是那个迷茫啊……然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……"></a>啊真的是，将近一天的功夫才弄好这个东西，也不知道看了有多少的博客教学啊什么详解啊，反正我是那个迷茫啊……然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……</h4><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ Github账号一枚</span><br><span class="line">$ 安装 node.js、hexo</span><br><span class="line">$ 安装Git</span><br><span class="line">$我的博客..(没错，我很认真QAQ)</span><br></pre></td></tr></table></figure>
+<h4 id="啊真的是，将近一天的功夫才弄好这个东西-终归还是我太菜了趴…-，也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……"><a href="#啊真的是，将近一天的功夫才弄好这个东西-终归还是我太菜了趴…-，也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……" class="headerlink" title="啊真的是，将近一天的功夫才弄好这个东西(终归还是我太菜了趴…)，也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……"></a>啊真的是，将近一天的功夫才弄好这个东西(终归还是我太菜了趴…)，也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索着个人感jio是最便捷的方法了吧……</h4><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ Github账号一枚</span><br><span class="line">$ 安装 Git</span><br><span class="line">$ 安装 hexo</span><br><span class="line">$ 安装 node.js</span><br><span class="line">$ 我的博客..(没错，我很认真QAQ)</span><br></pre></td></tr></table></figure>
 
-<p>啊啊啊: <a href="https://www.baidu.com" target="_blank" rel="noopener">嘤嘤嘤</a></p>
+<p>嘛！按照步骤来啦~</p>
+<p>1、在Github官网创建一个账号 –&gt; <a href="https://github.com/" target="_blank" rel="noopener">Github官网</a></p>
+<p><img src="/img/1.png" alt="alt"><br>之后有个验证真人还是机器人…Emmm<br>有免费和收费两种，不是很经常用到Github的免费就可以了(反正我选的是免费的…),大佬随意哈！！<br>ps：验证QQ邮箱接收验证码不一定能接收到(应该不是我吧…)，建议用手机自带的浏览器打开这个网站进行注册和接收(绝无虚言，本人亲测！！)<br>ok！nice！以后你就是有github账号的人啦2333？</p>
+<p>之后就可以创建你的Github的仓库啦~(就是利用Github的开源库搭建的博客哦)<br>点击右上角的加号，选择第一个 New repository<br><img src="/img/2.png" alt="alt"><br>填写库名信息，注意前缀一定要跟你的用户名一样哦<br><img src="/img/3.png" alt="alt"><br>ok，创建成功，然后就有了一个用来搭建博客的仓库了<br><img src="/img/4.png" alt="alt"></p>
 <h3 id="emmm？"><a href="#emmm？" class="headerlink" title="emmm？"></a>emmm？</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">？？</span><br></pre></td></tr></table></figure>
 
 <p>还好吧：wdnmd</p>
