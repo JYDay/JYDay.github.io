@@ -107,7 +107,7 @@
 <p>之后回到 <a href="https://github.com/" target="_blank" rel="noopener">Github 官网</a> ，到项目的 Settings 选项<br>往下滑，找到 Custom domain ，在里面添加你购买的域名并保存</p>
 <p><img src="/img/26.png" alt="alt"></p>
 <p><img src="/img/25.png" alt="alt"></p>
-<p>ok，这样就可以以你购买的域名来访问你的博客啦！比如我的就是 <a href="https://jyday.club" target="_blank" rel="noopener">https://jyday.club</a> </p>
+<p>ok，这样就可以以你购买的域名来访问你的博客啦！比如我的就是 <a href="https://jyday.club">https://jyday.club</a> </p>
 <p>2、个性化博客主题</p>
 <p>当我们打开我们的博的时候，Emmm，虽然不是不忍直视吧但还是感觉换一下比较好……</p>
 <p>ok，在我们 Hexo 的官网主题中，你可以选择一个自己喜欢的主题进行修改就可以啦 –&gt; <a href="https://hexo.io/themes/" target="_blank" rel="noopener">Hexo 主题</a></p>
