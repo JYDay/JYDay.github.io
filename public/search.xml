@@ -12,6 +12,9 @@
 <p>1、在Github官网创建一个账号 –&gt; <a href="https://github.com/" target="_blank" rel="noopener">Github官网</a></p>
 <p><img src="/img/1.png" alt="alt"><br>之后有个验证真人还是机器人…Emmm<br>有免费和收费两种，不是很经常用到Github的免费就可以了(反正我选的是免费的…),大佬随意哈！！<br>ps：验证QQ邮箱接收验证码不一定能接收到(应该不是我吧…)，建议用手机自带的浏览器打开这个网站进行注册和接收(绝无虚言，本人亲测！！)<br>ok！nice！以后你就是有github账号的人啦2333？</p>
 <p>之后就可以创建你的Github的仓库啦~(就是利用Github的开源库搭建的博客哦)<br>点击右上角的加号，选择第一个 New repository<br><img src="/img/2.png" alt="alt"><br>填写库名信息，注意前缀一定要跟你的用户名一样哦<br><img src="/img/3.png" alt="alt"><br>ok，创建成功，然后就有了一个用来搭建博客的仓库了<br><img src="/img/4.png" alt="alt"></p>
+<p>2、安装Git –&gt; <a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git下载官网</a><br>自己修改位置安装咯，安装完成后点击鼠标右键会有 Git Bash Here的命令行工具选项，以后就用这个来使用git啦<br>命令 git –version 查看版本信息<br><img src="/img/5.png" alt="alt"><br>Git是目前世界上最先进的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理，也就是用来管理你的hexo博客文章，上传到GitHub的工具，Git非常强大，建议每个人都去了解一下哦</p>
+<p>3、安装node.js –&gt; <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">node.js下载官网</a><br>Hexo 是基于nodeJS编写的，主要还需要用到里面的npm工具<br>因为本文讲的是windows下的安装，选择LTS版本就ok<br><img src="/img/6.jpg" alt="alt"><br><img src="/img/7.png" alt="alt"></p>
+<p>4、</p>
 <h3 id="emmm？"><a href="#emmm？" class="headerlink" title="emmm？"></a>emmm？</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">？？</span><br></pre></td></tr></table></figure>
 
 <p>还好吧：wdnmd</p>
