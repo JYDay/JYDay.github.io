@@ -1,33 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>个人博客搭建</title>
-      <link href="/2020/01/04/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-      <url>/2020/01/04/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
-      
-        <content type="html"><![CDATA[<p>利用 Github 开源库搭建免费的个人博客</p><h2 id="JYDay’-Blog"><a href="#JYDay’-Blog" class="headerlink" title="JYDay’ Blog"></a>JYDay’ Blog</h2><a id="more"></a><h4 id="啊真的是，将近一天的功夫才弄好这个东西（终归还是我太菜了趴…），也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索出来的……"><a href="#啊真的是，将近一天的功夫才弄好这个东西（终归还是我太菜了趴…），也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索出来的……" class="headerlink" title="啊真的是，将近一天的功夫才弄好这个东西（终归还是我太菜了趴…），也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索出来的……"></a>啊真的是，将近一天的功夫才弄好这个东西（终归还是我太菜了趴…），也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索出来的……</h4><h4 id="以下是我整理的个人感觉是挺详细的一套流程了吧…-（没错！就素介个亚子！）"><a href="#以下是我整理的个人感觉是挺详细的一套流程了吧…-（没错！就素介个亚子！）" class="headerlink" title="以下是我整理的个人感觉是挺详细的一套流程了吧…..（没错！就素介个亚子！）"></a>以下是我整理的个人感觉是挺详细的一套流程了吧…..（没错！就素介个亚子！）</h4><h3 id="准备工作及本地模板"><a href="#准备工作及本地模板" class="headerlink" title="准备工作及本地模板"></a>准备工作及本地模板</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ Github 账号一枚</span><br><span class="line">$ 安装 Git</span><br><span class="line">$ 安装 node.js</span><br><span class="line">$ 安装 hexo</span><br><span class="line">$ 我的博客..(没错，我很认真QAQ)</span><br></pre></td></tr></table></figure><p>嘛！按照步骤来啦~</p><p>1、在Github官网创建一个账号 –&gt; <a href="https://github.com/" target="_blank" rel="noopener">Github官网</a></p><p><img src="/img/1.png" alt="alt"></p><p>之后有个验证真人还是机器人…Emmm</p><p>有免费和收费两种，不是很经常用到 Github 的免费就可以了（反正我选的是免费的…）,大佬随意哈！！</p><p>ps：验证QQ邮箱接收验证码不一定能接收到（应该不是我吧…），建议用手机自带的浏览器打开这个网站进行注册和接收（绝无虚言，本人亲测！！）</p><p>ok！nice！以后你就是有 github 账号的人啦 2333</p><p>之后就可以创建你的 Github 的仓库啦~（就是利用 Github 的开源库搭建的博客哦）</p><p>点击右上角的加号，选择第一个 New repository</p><p><img src="/img/2.png" alt="alt"></p><p>填写库名信息，注意前缀一定要跟你的用户名一样哦</p><p><img src="/img/3.png" alt="alt"></p><p>ok，创建成功，然后就有了一个用来搭建博客的仓库了</p><p><img src="/img/4.png" alt="alt"></p><p>2、安装 Git –&gt; <a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git下载官网</a><br>自己修改位置安装咯，安装完成后点击鼠标右键会有 Git Bash Here 的命令行工具选项，以后就用这个来使用 git 啦<br>命令 git –version 查看版本信息</p><p><img src="/img/5.png" alt="alt"></p><p>Git 是目前世界上最先进的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理，也就是用来管理你的 hexo 博客文章，上传到 GitHub 的工具，Git 非常强大，建议每个人都去了解一下哦</p><p>3、安装 node.js –&gt; <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">node.js下载官网</a><br>Hexo 是基于 nodeJS 编写的，主要还需要用到里面的 npm 工具</p><p>因为本文讲的是 windows 下的安装，选择 LTS 下的 windows 版本的就ok</p><p><img src="/img/99.png" alt="alt"></p><p><img src="/img/6.jpg" alt="alt"></p><p><img src="/img/7.png" alt="alt"></p><p>4、安装 Hexo<br>Hexo 是一个快速、简洁且高效的博客框架，Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页</p><p>直接使用 npm 命令安装 Hexo<br>(建议安装在博客目录下，新建文件夹  eg：BoKe/hexo 或者 Blog/hexo 等)<br>在 hexo 文件下右键然后选中 Git bash Here 打开命令栏</p><p><img src="/img/8.png" alt="alt"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ nmp install -g hexo-cli     #下载需要等待</span><br><span class="line">$ cd &#x2F;D&#x2F;Github&#x2F;BoKe&#x2F;hexo&#x2F;</span><br><span class="line">$ hexo init</span><br><span class="line">$ hexo -v</span><br></pre></td></tr></table></figure><p>cd 的作用是传送到你安装 hexo 的目录，如果之前就是在此目录打开则不需要再次输入</p><p>hexo init 安装到此目录，安装完成如下</p><p><img src="/img/9.png" alt="alt"></p><p>欧克！本地的模板就大功告成啦！</p><p>ps:之后写博客以及修改都在 hexo 文件夹内执行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g     # 生成模板</span><br><span class="line">$ hexo s     # 开启服务</span><br></pre></td></tr></table></figure><p><img src="/img/11.png" alt="alt"></p><p>之后你的 public 文件夹就会生成相关的 html 等文件啦</p><p><img src="/img/10.png" alt="alt"></p><p>hexo s 是开启本地预览服务，打开浏览器访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 即可看到你的博客的内容啦，类似下图(一直偷图会不会不太好……)<br>(默认端口为：4000 ，多人会碰到浏览器一直在转圈但是就是加载不出来的问题，一般情况下是因为端口占用的缘故)</p><p><img src="/img/12.png" alt="alt"></p><p>ok，至此我们的本地博客模板搭建成功！</p><h3 id="本地模板与-Github-库连接"><a href="#本地模板与-Github-库连接" class="headerlink" title="本地模板与 Github 库连接"></a>本地模板与 Github 库连接</h3><p>与 Github 连接当然需要一个 Github 账号和 Github 库啦</p><p>这些在准备工作都已经做好了哦</p><p>回到你的 git bash中~</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;yourname&quot;</span><br><span class="line">$ git config --global user.email &quot;youremail&quot;</span><br></pre></td></tr></table></figure><p>这里的 yourname 输入你的 GitHub 用户名，youremail 输入你 GitHub 的邮箱，这样 GitHub 才能知道你是不是对应它的账户</p><p>输入完之后可以用以下两条检查一下你有没有输对</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config user.name</span><br><span class="line">$ git config user.email</span><br></pre></td></tr></table></figure><p><img src="/img/13.png" alt="alt"></p><p>然后创建 SSH，生成与 Github 连接的秘钥，这个按默认一路回车就可以了</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;youremail&quot;</span><br></pre></td></tr></table></figure><p>这个时候它会告诉你已经生成了 .ssh 的文件夹，在你的电脑中找到这个文件夹</p><p><img src="/img/14.png" alt="alt"></p><p>ssh ，简单来讲，就是一个秘钥，其中，id_rsa 是你这台电脑的私人秘钥，不能给别人看的，id_rsa.pub 是公共秘钥，可以随便给别人看，把这个公钥放在 GitHub 上，这样当你链接 GitHub 自己的账户时，它就会根据公钥匹配你的私钥，当能够相互匹配时，才能够顺利的通过 git 上传你的文件到 GitHub 上</p><p>之后就要打开 <a href="https://github.com/" target="_blank" rel="noopener">Github 官网</a> 登录配置啦</p><p>点击右上角的个人，然后选项 Settings</p><p><img src="/img/15.png" alt="alt"></p><p>点击左侧栏 SSH and GPG keys 选项</p><p>在 New SSH keys 的 key 中输入秘钥（id_rsa.pub 的全部内容），title 随便输入</p><p>然后点击 Add SSH key ，就添加成功啦</p><p><img src="/img/16.png" alt="alt"></p><p><img src="/img/17.png" alt="alt"></p><p>ok，添加后在 Git Bash 中查看是否成功</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure><p><img src="/img/18.png" alt="alt"></p><p>然后呢，打开你的 hexo 的文件夹，找到其中的配置文件（ _config.yml ）打开并翻到最后，修改 deploy 的内容</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;YourgithubName&#x2F;YourgithubName.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><p>YourgithubName 就是你的 GitHub 账户，注意每个冒号后面有一个空格</p><p><img src="/img/19.png" alt="alt"></p><p>这个时候需要先安装 deploy-git ，也就是部署的命令,这样你才能用命令部署到 GitHub </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p><img src="/img/20.png" alt="alt"></p><p>然后呢</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo c     # 清除之前生成的东西，也可以不加</span><br><span class="line">$ hexo g     # 生成静态文章</span><br><span class="line">$ hexo d     # 部署文章到 .github.io</span><br></pre></td></tr></table></figure><p><img src="/img/21.png" alt="alt"></p><p>（hexo d 之前可以先 hexo s ，打开本地预览在 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 可以本地先查看确认无误在部署哦）</p><p>成功之后会需要一点时间才能打开，大概五分钟（不等）之后就可以在<a href="http://yourname.github.io" target="_blank" rel="noopener">http://yourname.github.io</a> 这个网站看到你的博客啦！</p><h3 id="专属域名与博客个性主题"><a href="#专属域名与博客个性主题" class="headerlink" title="专属域名与博客个性主题"></a>专属域名与博客个性主题</h3><p>1、专属域名设置</p><p>现在我们的个人博客网站地址是 <a href="http://yourname.github.io" target="_blank" rel="noopener">http://yourname.github.io</a> ，如果觉得这个网址‘逼格’不够，就要我们自己设置域名啦</p><p>可以在 <a href="https://cloud.tencent.com/" target="_blank" rel="noopener">腾讯云</a>、<a href="https://www.aliyun.com/" target="_blank" rel="noopener">阿里云</a> 等地方购买一个域名，看个人喜好选后缀，价格不一，也不是很贵</p><p>（本人这个就在腾讯云买了后缀为 .club 的域名，新人，一年一块钱…）</p><p>以腾讯云为例，购买域名，然后按照要求完成实名认证</p><p>对域名进行解析</p><p><img src="/img/22.png" alt="alt"></p><p>增加两条域名解析：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ 主机记录：www、@</span><br><span class="line">$ 记录类型：A、A</span><br><span class="line">$ 线路类型：默认、默认</span><br><span class="line">$ 记录值：网址的ipv4、网址的ipv4</span><br><span class="line">$ TTL：600</span><br></pre></td></tr></table></figure><p><img src="/img/27.png" alt="alt"></p><p>如果不知道自己网站的 ipv4 地址呢，就打开 cmd 命令行(同时按下 windows 键和 R 键，输入 cmd )，输入 ping 自己的网址，就可以得到回复啦</p><p><img src="/img/23.png" alt="alt"></p><p>ok，添加之后保存，过一会就生效咯</p><p>打开 hexo 文件的 source 文件夹，在里面创建一个名为 CNAME 的文件<br>注意：文件名一定不能错，且不能有后缀<br>在里面输入你购买的域名（比如我的就是  jyday.club 啦）</p><p><img src="/img/24.png" alt="alt"></p><p>之后回到 <a href="https://github.com/" target="_blank" rel="noopener">Github 官网</a> ，到项目的 Settings 选项<br>往下滑，找到 Custom domain ，在里面添加你购买的域名并保存</p><p><img src="/img/26.png" alt="alt"></p><p><img src="/img/25.png" alt="alt"></p><p>ok，这样就可以以你购买的域名来访问你的博客啦！比如我的就是 <a href="https://jyday.club">https://jyday.club</a> </p><p>2、个性化博客主题</p><p>当我们打开我们的博的时候，Emmm，虽然不是不忍直视吧但还是感觉换一下比较好……</p><p>ok，在我们 Hexo 的官网主题中，你可以选择一个自己喜欢的主题进行修改就可以啦 –&gt; <a href="https://hexo.io/themes/" target="_blank" rel="noopener">Hexo 主题</a></p><p>这些官网主题有一些大受欢迎，比如 <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">yiliya</a>、<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">Next</a> 等，因其简约优雅，极致的性能使其受到大众的喜爱</p><p>（本人用的主题就是根据 yilia 优化改编的一款啦）</p><p><img src="/img/28.png" alt="alt"></p><p>我们以 yilia 主题为例介绍一下我们的修改过程 –&gt; <a href="http://litten.me/" target="_blank" rel="noopener">yilia 主题效果</a></p><p><img src="/img/29.png" alt="alt"></p><p>同样在 hexo 文件夹内右键打开 Git Bash （基本对博客的修改使用都在此文件中右键打开）输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia.git themes&#x2F;yilia</span><br></pre></td></tr></table></figure><p><img src="/img/30.png" alt="alt"></p><p>下载完成后你就会发现在 themes 文件夹中多了一个名为 yilia 的文件夹，这就是yilia 的主题文件夹</p><p>之后返回 hexo 文件夹，打开站点配置文件 _config.yml ，找到 theme 字段，并将其值更改为主题名字 yilia </p><p><img src="/img/31.png" alt="alt"></p><p>欧克，现在打开你的博客，就会发现页面已经换成了 yilia 的主题啦</p><p>当然，页面的个人信息内容编辑还是需要个人的修改，这个在 yilia 文件夹里的配置文件 _config.yml 里面有说明哦</p><p><img src="/img/32.png" alt="alt"></p><p>最后呢，简单说一下博客的写法</p><p>个人呢，是感觉输入命令不好记（憋说了，还是我太菜了！），所以就不用命令格式了哈</p><p>打开 hexo 文件下的 source 文件夹，打开 _posts 文件夹，你会发现里面有一个名为 Hello word 的以 md 为后缀的文件</p><p><img src="/img/33.png" alt="alt"></p><p>没错，这就是我们的博客文章的内容</p><p>因为 Hexo 搭建的博客用的是markdown的语法，大多数博客的书写都是这种语法，ps：总不会你想要什么格式它就会自动生成你想要的格式啦</p><p>（虽然我就这么想的…）</p><p>如果想再写一篇文章呢，就需要在同目录下创建一个后缀为 .md 的 文件，比如：test.md ，以文本格式打开文件就可以写下你想要发布的内容了</p><p>（这里就需要各位 dalao 去简单的学习一下 md 语法哦）</p><h3 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h3><p>好了好了，这次就到这里为止吧，又参考了不少资料，累死了（果然还是因为我太懒了吧），各位 dalao 觉得不错可以收藏一下哦</p><p>有什么问题或者建议也可以发送邮件或者 QQ 联系，言无不尽啊！！</p><p>完结完结！感谢感谢！撒花撒花！</p><h2 id="By-JYDay"><a href="#By-JYDay" class="headerlink" title="By JYDay"></a>By JYDay</h2>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>HelloWorld</title>
-      <link href="/2019/12/23/Hello%20word/"/>
-      <url>/2019/12/23/Hello%20word/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>HelloWorld</title>
+    <url>/2020/01/04/test/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
+
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>个人博客搭建</title>
+    <url>/2020/01/04/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<p>利用 Github 开源库搭建免费的个人博客</p>
+<h2 id="JYDay’-Blog"><a href="#JYDay’-Blog" class="headerlink" title="JYDay’ Blog"></a>JYDay’ Blog</h2><a id="more"></a>
+
+<h4 id="啊真的是，将近一天的功夫才弄好这个东西（终归还是我太菜了趴…），也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索出来的……"><a href="#啊真的是，将近一天的功夫才弄好这个东西（终归还是我太菜了趴…），也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索出来的……" class="headerlink" title="啊真的是，将近一天的功夫才弄好这个东西（终归还是我太菜了趴…），也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索出来的……"></a>啊真的是，将近一天的功夫才弄好这个东西（终归还是我太菜了趴…），也不知道看了有多少的博客教学啊什么详解啊，又学了半天的md语法啊……反正我是那个迷茫啊！！然后看这个看那个的慢慢摸索出来的……</h4><h4 id="以下是我整理的个人感觉是挺详细的一套流程了吧…-（没错！就素介个亚子！）"><a href="#以下是我整理的个人感觉是挺详细的一套流程了吧…-（没错！就素介个亚子！）" class="headerlink" title="以下是我整理的个人感觉是挺详细的一套流程了吧…..（没错！就素介个亚子！）"></a>以下是我整理的个人感觉是挺详细的一套流程了吧…..（没错！就素介个亚子！）</h4><h3 id="准备工作及本地模板"><a href="#准备工作及本地模板" class="headerlink" title="准备工作及本地模板"></a>准备工作及本地模板</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ Github 账号一枚</span><br><span class="line">$ 安装 Git</span><br><span class="line">$ 安装 node.js</span><br><span class="line">$ 安装 hexo</span><br><span class="line">$ 我的博客..(没错，我很认真QAQ)</span><br></pre></td></tr></table></figure>
+
+<p>嘛！按照步骤来啦~</p>
+<p>1、在Github官网创建一个账号 –&gt; <a href="https://github.com/" target="_blank" rel="noopener">Github官网</a></p>
+<p><img src="/img/1.png" alt="alt"></p>
+<p>之后有个验证真人还是机器人…Emmm</p>
+<p>有免费和收费两种，不是很经常用到 Github 的免费就可以了（反正我选的是免费的…）,大佬随意哈！！</p>
+<p>ps：验证QQ邮箱接收验证码不一定能接收到（应该不是我吧…），建议用手机自带的浏览器打开这个网站进行注册和接收（绝无虚言，本人亲测！！）</p>
+<p>ok！nice！以后你就是有 github 账号的人啦 2333</p>
+<p>之后就可以创建你的 Github 的仓库啦~（就是利用 Github 的开源库搭建的博客哦）</p>
+<p>点击右上角的加号，选择第一个 New repository</p>
+<p><img src="/img/2.png" alt="alt"></p>
+<p>填写库名信息，注意前缀一定要跟你的用户名一样哦</p>
+<p><img src="/img/3.png" alt="alt"></p>
+<p>ok，创建成功，然后就有了一个用来搭建博客的仓库了</p>
+<p><img src="/img/4.png" alt="alt"></p>
+<p>2、安装 Git –&gt; <a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git下载官网</a><br>自己修改位置安装咯，安装完成后点击鼠标右键会有 Git Bash Here 的命令行工具选项，以后就用这个来使用 git 啦<br>命令 git –version 查看版本信息</p>
+<p><img src="/img/5.png" alt="alt"></p>
+<p>Git 是目前世界上最先进的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理，也就是用来管理你的 hexo 博客文章，上传到 GitHub 的工具，Git 非常强大，建议每个人都去了解一下哦</p>
+<p>3、安装 node.js –&gt; <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">node.js下载官网</a><br>Hexo 是基于 nodeJS 编写的，主要还需要用到里面的 npm 工具</p>
+<p>因为本文讲的是 windows 下的安装，选择 LTS 下的 windows 版本的就ok</p>
+<p><img src="/img/99.png" alt="alt"></p>
+<p><img src="/img/6.jpg" alt="alt"></p>
+<p><img src="/img/7.png" alt="alt"></p>
+<p>4、安装 Hexo<br>Hexo 是一个快速、简洁且高效的博客框架，Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页</p>
+<p>直接使用 npm 命令安装 Hexo<br>(建议安装在博客目录下，新建文件夹  eg：BoKe/hexo 或者 Blog/hexo 等)<br>在 hexo 文件下右键然后选中 Git bash Here 打开命令栏</p>
+<p><img src="/img/8.png" alt="alt"></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ nmp install -g hexo-cli     #下载需要等待</span><br><span class="line">$ cd &#x2F;D&#x2F;Github&#x2F;BoKe&#x2F;hexo&#x2F;</span><br><span class="line">$ hexo init</span><br><span class="line">$ hexo -v</span><br></pre></td></tr></table></figure>
+
+<p>cd 的作用是传送到你安装 hexo 的目录，如果之前就是在此目录打开则不需要再次输入</p>
+<p>hexo init 安装到此目录，安装完成如下</p>
+<p><img src="/img/9.png" alt="alt"></p>
+<p>欧克！本地的模板就大功告成啦！</p>
+<p>ps:之后写博客以及修改都在 hexo 文件夹内执行</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo g     # 生成模板</span><br><span class="line">$ hexo s     # 开启服务</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/11.png" alt="alt"></p>
+<p>之后你的 public 文件夹就会生成相关的 html 等文件啦</p>
+<p><img src="/img/10.png" alt="alt"></p>
+<p>hexo s 是开启本地预览服务，打开浏览器访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 即可看到你的博客的内容啦，类似下图(一直偷图会不会不太好……)<br>(默认端口为：4000 ，多人会碰到浏览器一直在转圈但是就是加载不出来的问题，一般情况下是因为端口占用的缘故)</p>
+<p><img src="/img/12.png" alt="alt"></p>
+<p>ok，至此我们的本地博客模板搭建成功！</p>
+<h3 id="本地模板与-Github-库连接"><a href="#本地模板与-Github-库连接" class="headerlink" title="本地模板与 Github 库连接"></a>本地模板与 Github 库连接</h3><p>与 Github 连接当然需要一个 Github 账号和 Github 库啦</p>
+<p>这些在准备工作都已经做好了哦</p>
+<p>回到你的 git bash中~</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name &quot;yourname&quot;</span><br><span class="line">$ git config --global user.email &quot;youremail&quot;</span><br></pre></td></tr></table></figure>
+
+<p>这里的 yourname 输入你的 GitHub 用户名，youremail 输入你 GitHub 的邮箱，这样 GitHub 才能知道你是不是对应它的账户</p>
+<p>输入完之后可以用以下两条检查一下你有没有输对</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git config user.name</span><br><span class="line">$ git config user.email</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/13.png" alt="alt"></p>
+<p>然后创建 SSH，生成与 Github 连接的秘钥，这个按默认一路回车就可以了</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;youremail&quot;</span><br></pre></td></tr></table></figure>
+
+<p>这个时候它会告诉你已经生成了 .ssh 的文件夹，在你的电脑中找到这个文件夹</p>
+<p><img src="/img/14.png" alt="alt"></p>
+<p>ssh ，简单来讲，就是一个秘钥，其中，id_rsa 是你这台电脑的私人秘钥，不能给别人看的，id_rsa.pub 是公共秘钥，可以随便给别人看，把这个公钥放在 GitHub 上，这样当你链接 GitHub 自己的账户时，它就会根据公钥匹配你的私钥，当能够相互匹配时，才能够顺利的通过 git 上传你的文件到 GitHub 上</p>
+<p>之后就要打开 <a href="https://github.com/" target="_blank" rel="noopener">Github 官网</a> 登录配置啦</p>
+<p>点击右上角的个人，然后选项 Settings</p>
+<p><img src="/img/15.png" alt="alt"></p>
+<p>点击左侧栏 SSH and GPG keys 选项</p>
+<p>在 New SSH keys 的 key 中输入秘钥（id_rsa.pub 的全部内容），title 随便输入</p>
+<p>然后点击 Add SSH key ，就添加成功啦</p>
+<p><img src="/img/16.png" alt="alt"></p>
+<p><img src="/img/17.png" alt="alt"></p>
+<p>ok，添加后在 Git Bash 中查看是否成功</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/18.png" alt="alt"></p>
+<p>然后呢，打开你的 hexo 的文件夹，找到其中的配置文件（ _config.yml ）打开并翻到最后，修改 deploy 的内容</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;YourgithubName&#x2F;YourgithubName.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<p>YourgithubName 就是你的 GitHub 账户，注意每个冒号后面有一个空格</p>
+<p><img src="/img/19.png" alt="alt"></p>
+<p>这个时候需要先安装 deploy-git ，也就是部署的命令,这样你才能用命令部署到 GitHub </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/20.png" alt="alt"></p>
+<p>然后呢</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo c     # 清除之前生成的东西，也可以不加</span><br><span class="line">$ hexo g     # 生成静态文章</span><br><span class="line">$ hexo d     # 部署文章到 .github.io</span><br></pre></td></tr></table></figure>
+<p><img src="/img/21.png" alt="alt"></p>
+<p>（hexo d 之前可以先 hexo s ，打开本地预览在 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 可以本地先查看确认无误在部署哦）</p>
+<p>成功之后会需要一点时间才能打开，大概五分钟（不等）之后就可以在<a href="http://yourname.github.io" target="_blank" rel="noopener">http://yourname.github.io</a> 这个网站看到你的博客啦！</p>
+<h3 id="专属域名与博客个性主题"><a href="#专属域名与博客个性主题" class="headerlink" title="专属域名与博客个性主题"></a>专属域名与博客个性主题</h3><p>1、专属域名设置</p>
+<p>现在我们的个人博客网站地址是 <a href="http://yourname.github.io" target="_blank" rel="noopener">http://yourname.github.io</a> ，如果觉得这个网址‘逼格’不够，就要我们自己设置域名啦</p>
+<p>可以在 <a href="https://cloud.tencent.com/" target="_blank" rel="noopener">腾讯云</a>、<a href="https://www.aliyun.com/" target="_blank" rel="noopener">阿里云</a> 等地方购买一个域名，看个人喜好选后缀，价格不一，也不是很贵</p>
+<p>（本人这个就在腾讯云买了后缀为 .club 的域名，新人，一年一块钱…）</p>
+<p>以腾讯云为例，购买域名，然后按照要求完成实名认证</p>
+<p>对域名进行解析</p>
+<p><img src="/img/22.png" alt="alt"></p>
+<p>增加两条域名解析：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ 主机记录：www、@</span><br><span class="line">$ 记录类型：A、A</span><br><span class="line">$ 线路类型：默认、默认</span><br><span class="line">$ 记录值：网址的ipv4、网址的ipv4</span><br><span class="line">$ TTL：600</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/27.png" alt="alt"></p>
+<p>如果不知道自己网站的 ipv4 地址呢，就打开 cmd 命令行(同时按下 windows 键和 R 键，输入 cmd )，输入 ping 自己的网址，就可以得到回复啦</p>
+<p><img src="/img/23.png" alt="alt"></p>
+<p>ok，添加之后保存，过一会就生效咯</p>
+<p>打开 hexo 文件的 source 文件夹，在里面创建一个名为 CNAME 的文件<br>注意：文件名一定不能错，且不能有后缀<br>在里面输入你购买的域名（比如我的就是  jyday.club 啦）</p>
+<p><img src="/img/24.png" alt="alt"></p>
+<p>之后回到 <a href="https://github.com/" target="_blank" rel="noopener">Github 官网</a> ，到项目的 Settings 选项<br>往下滑，找到 Custom domain ，在里面添加你购买的域名并保存</p>
+<p><img src="/img/26.png" alt="alt"></p>
+<p><img src="/img/25.png" alt="alt"></p>
+<p>ok，这样就可以以你购买的域名来访问你的博客啦！比如我的就是 <a href="https://jyday.club">https://jyday.club</a> </p>
+<p>2、个性化博客主题</p>
+<p>当我们打开我们的博的时候，Emmm，虽然不是不忍直视吧但还是感觉换一下比较好……</p>
+<p>ok，在我们 Hexo 的官网主题中，你可以选择一个自己喜欢的主题进行修改就可以啦 –&gt; <a href="https://hexo.io/themes/" target="_blank" rel="noopener">Hexo 主题</a></p>
+<p>这些官网主题有一些大受欢迎，比如 <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">yiliya</a>、<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">Next</a> 等，因其简约优雅，极致的性能使其受到大众的喜爱</p>
+<p>（本人用的主题就是根据 yilia 优化改编的一款啦）</p>
+<p><img src="/img/28.png" alt="alt"></p>
+<p>我们以 yilia 主题为例介绍一下我们的修改过程 –&gt; <a href="http://litten.me/" target="_blank" rel="noopener">yilia 主题效果</a></p>
+<p><img src="/img/29.png" alt="alt"></p>
+<p>同样在 hexo 文件夹内右键打开 Git Bash （基本对博客的修改使用都在此文件中右键打开）输入：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia.git themes&#x2F;yilia</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/30.png" alt="alt"></p>
+<p>下载完成后你就会发现在 themes 文件夹中多了一个名为 yilia 的文件夹，这就是yilia 的主题文件夹</p>
+<p>之后返回 hexo 文件夹，打开站点配置文件 _config.yml ，找到 theme 字段，并将其值更改为主题名字 yilia </p>
+<p><img src="/img/31.png" alt="alt"></p>
+<p>欧克，现在打开你的博客，就会发现页面已经换成了 yilia 的主题啦</p>
+<p>当然，页面的个人信息内容编辑还是需要个人的修改，这个在 yilia 文件夹里的配置文件 _config.yml 里面有说明哦</p>
+<p><img src="/img/32.png" alt="alt"></p>
+<p>最后呢，简单说一下博客的写法</p>
+<p>个人呢，是感觉输入命令不好记（憋说了，还是我太菜了！），所以就不用命令格式了哈</p>
+<p>打开 hexo 文件下的 source 文件夹，打开 _posts 文件夹，你会发现里面有一个名为 Hello word 的以 md 为后缀的文件</p>
+<p><img src="/img/33.png" alt="alt"></p>
+<p>没错，这就是我们的博客文章的内容</p>
+<p>因为 Hexo 搭建的博客用的是markdown的语法，大多数博客的书写都是这种语法，ps：总不会你想要什么格式它就会自动生成你想要的格式啦</p>
+<p>（虽然我就这么想的…）</p>
+<p>如果想再写一篇文章呢，就需要在同目录下创建一个后缀为 .md 的 文件，比如：test.md ，以文本格式打开文件就可以写下你想要发布的内容了</p>
+<p>（这里就需要各位 dalao 去简单的学习一下 md 语法哦）</p>
+<h3 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h3><p>好了好了，这次就到这里为止吧，又参考了不少资料，累死了（果然还是因为我太懒了吧），各位 dalao 觉得不错可以收藏一下哦</p>
+<p>有什么问题或者建议也可以发送邮件或者 QQ 联系，言无不尽啊！！</p>
+<p>完结完结！感谢感谢！撒花撒花！</p>
+<h2 id="By-JYDay"><a href="#By-JYDay" class="headerlink" title="By JYDay"></a>By JYDay</h2>]]></content>
+  </entry>
+  <entry>
+    <title>HelloWorld</title>
+    <url>/2019/12/23/Hello%20word/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
+
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
 </search>
